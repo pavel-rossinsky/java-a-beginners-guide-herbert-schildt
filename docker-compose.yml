@@ -3,8 +3,8 @@ version: "3.7"
 services:
   jdk:
     build:
-      context: ./docker/builds
-      dockerfile: java/Dockerfile
+      context: ./docker/builds/jdk
+      dockerfile: Dockerfile
     volumes:
       - target:/var/www/java-guide
     ports:
