@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  jdk:
+    build:
+      context: ./docker/builds
+      dockerfile: java/Dockerfile
+    volumes:
+      - target:/var/www/java-guide
+    ports:
+      - 5005:5005
+    environment:
+      - DEBUG=${DEBUG}
+volumes:
+  target:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${CODEBASE}
+      o: bind
