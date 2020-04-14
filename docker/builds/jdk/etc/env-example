@@ -1,0 +1,4 @@
+# Your local path to the source files (no trailing slash at the end)
+CODEBASE=/your/local/path
+# Set to 1 if you want to debug java code
+DEBUG=0
