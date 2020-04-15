@@ -7,6 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - target:/var/www/java-guide
+      - jvm-sources:/usr/lib/jvm
     ports:
       - 5005:5005
     environment:
@@ -17,4 +18,10 @@ volumes:
     driver_opts:
       type: none
       device: ${CODEBASE}
+      o: bind
+  jvm-sources:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${CODEBASE}/jvm-sources
       o: bind
