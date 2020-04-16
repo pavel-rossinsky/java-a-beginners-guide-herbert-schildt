@@ -3,10 +3,10 @@
  */
 class SelfTest10 {
     public static void main(String[] args) {
-        double inches, meters;
+        double meters;
         int counter = 0;
 
-        for (inches = 1; inches <= 144; inches++) {
+        for (int inches = 1; inches <= 144; inches++) {
             meters = inches / 39.37;
 
             System.out.println(inches + " inches is " + meters + " meters.");
