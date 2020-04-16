@@ -6,8 +6,8 @@ class SelfTest10 {
         double inches, meters;
         int counter = 0;
 
-        for (inches = 1; inches <= 100; inches++) {
-            meters = inches * 39.37;
+        for (inches = 1; inches <= 144; inches++) {
+            meters = inches / 39.37;
 
             System.out.println(inches + " inches is " + meters + " meters.");
 
