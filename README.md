@@ -1,6 +1,6 @@
 # Java - A Beginner's Guide\
-Seventh Edition\
+Seventh Edition
 
 Create, Compile, and Run Java Programs Today\
 Herbert Schildt\
-Oracle Press\
+Oracle Press
