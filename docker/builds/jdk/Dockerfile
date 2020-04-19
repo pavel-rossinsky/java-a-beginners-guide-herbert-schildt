@@ -18,6 +18,8 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 COPY bin/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
+WORKDIR /var/www/java-guide
+
 ENTRYPOINT ["entrypoint.sh"]
 
 CMD ["mvn", "-version"]
