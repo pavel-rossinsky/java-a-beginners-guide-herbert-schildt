@@ -6,7 +6,7 @@ services:
       context: ./docker/builds/jdk
       dockerfile: Dockerfile
     volumes:
-      - target:/var/www/java-guide
+      - target:/var/www/java-beginners-guide
       - jvm-sources:/usr/lib/jvm
       - maven-repository:/root/.m2
     ports:

@@ -8,8 +8,6 @@
     <artifactId>java-beginners-guide</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>java-beginners-guide</name>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.9</java.version>
