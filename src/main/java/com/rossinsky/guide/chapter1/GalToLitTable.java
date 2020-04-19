@@ -1,3 +1,5 @@
+package com.rossinsky.guide.chapter1;
+
 class GalToLitTable {
     public static void main(String[] args) {
         double gallons, liters;

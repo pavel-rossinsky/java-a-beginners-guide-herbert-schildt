@@ -1,3 +1,5 @@
+package com.rossinsky.guide.chapter1;
+
 /**
  * Prints a conversion table of inches to meters.
  */

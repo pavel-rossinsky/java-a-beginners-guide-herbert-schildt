@@ -1,3 +1,5 @@
+package com.rossinsky.guide.chapter1;
+
 /**
  * Calculates effective weight on the Moon of a man of 80kg.
  */
