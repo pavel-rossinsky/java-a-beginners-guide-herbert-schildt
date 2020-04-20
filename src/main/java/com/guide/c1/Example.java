@@ -1,4 +1,4 @@
-package com.rossinsky.guide.chapter1;
+package com.guide.c1;
 
 class Example {
     public static void main(String[] args) {
