@@ -10,11 +10,29 @@ Oracle Press
 
 ![Java - A Beginner's Guide Herbert Schildt](./java-beginners-guide.jpg)
 
-### How to install
+## Getting started
+Run the commands one by one:
+```shell script
+git clone https://github.com/pavel-rossinsky/java-a-beginners-guide-herbert-schildt.git
+cd java-a-beginners-guide-herbert-schildt
+mkdir jvm-sources .m2
+cp ./docker/builds/jdk/etc/env-example .env
+-> Open the .env file and set the right path to the project on your OS
+   for example /users/you_user_name/Documents/repository/java-a-beginners-guide-herbert-schildt
+docker-compose build
 ```
-1. git clone https://github.com/pavel-rossinsky/java-a-beginners-guide-herbert-schildt.git
-2. cd java-a-beginners-guide-herbert-schildt
-3. mkdir jvm-sources .m2
-4. docker-compose build
-5. 
+## How to compile
 ```
+docker-compose run jdk mvn compile
+```
+## How to run a class
+Find a class that is of your interest and copy its fully-qualified name, then run:
+```shell script
+docker-compose run jdk mvn exec:java -Dexec.mainClass={fully_qualified_class_name}
+```
+For instance:
+```shell script
+docker-compose run jdk mvn exec:java -Dexec.mainClass=com.guide.c1.Example
+docker-compose run jdk mvn exec:java -Dexec.mainClass=com.guide.c1.GalToLitTable
+```
+
