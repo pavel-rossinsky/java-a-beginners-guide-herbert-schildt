@@ -1,4 +1,6 @@
 *.idea
 *.iml
 .env
-/jvm-sources
+jvm-sources
+.m2
+target

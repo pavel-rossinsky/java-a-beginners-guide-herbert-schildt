@@ -1,3 +1,5 @@
+package com.guide.c1;
+
 class Example3 {
     public static void main(String[] args) {
         int var;

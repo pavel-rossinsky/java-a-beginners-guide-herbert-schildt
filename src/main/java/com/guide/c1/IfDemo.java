@@ -1,3 +1,5 @@
+package com.guide.c1;
+
 class IfDemo {
     public static void main(String[] args) {
         int a, b, c;

@@ -1,3 +1,5 @@
+package com.guide.c1;
+
 /**
  * Prints a conversion table of inches to meters.
  */

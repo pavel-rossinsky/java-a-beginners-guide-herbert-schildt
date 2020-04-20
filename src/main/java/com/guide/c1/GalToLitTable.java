@@ -1,3 +1,5 @@
+package com.guide.c1;
+
 class GalToLitTable {
     public static void main(String[] args) {
         double gallons, liters;
