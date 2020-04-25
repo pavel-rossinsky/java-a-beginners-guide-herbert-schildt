@@ -1,5 +1,6 @@
 package com.guide.c2;
 
+// Demonstrate the short-circuit operators.
 public class SCops {
     public static void main(String[] args) {
         int n, d, q;
