@@ -12,8 +12,8 @@ public class LtoD2 {
         double D;
 
         D = 100123285.0;
-        L = D; // Illegal, no automatic conversion from double to long.
+        // L = D; // Illegal, no automatic conversion from double to long.
 
-        System.out.println("L and D: " + L + " " + D);
+        // System.out.println("L and D: " + L + " " + D);
     }
 }
