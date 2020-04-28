@@ -14,7 +14,7 @@ public class Guess3 {
 
         if (ch == answer) System.out.println("*** Right ***");
         else {
-            System.out.println("...Sorry, you're wrong.");
+            System.out.print("...Sorry, you're ");
 
             if (ch < answer) System.out.println("too low");
             else System.out.println("too high");
