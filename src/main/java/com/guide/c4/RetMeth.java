@@ -1,9 +1,11 @@
 package com.guide.c4;
 
-public class AddMeth {
+public class RetMeth {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
+
+        int range1, range2;
 
         // assign values to fields in minivan
         minivan.passengers = 7;
@@ -15,8 +17,10 @@ public class AddMeth {
         sportscar.fuelcap = 14;
         sportscar.mpg = 12;
 
-        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + minivan.range());
+        range1 = minivan.range();
+        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1 + " miles");
 
-        System.out.println("Sportscar can carry " + sportscar.passengers + " with a range of " + sportscar.range());
+        range2 = sportscar.range();
+        System.out.println("Sportscar can carry " + sportscar.passengers + " with a range of " + range2 + " miles");
     }
 }
