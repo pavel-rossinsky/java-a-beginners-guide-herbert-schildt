@@ -5,6 +5,14 @@ public class Vehicle {
     int fuelcap; // fuel capacity in gallons
     int mpg; // fuel consumption in miles per gallon
 
+    Vehicle() {}
+
+    Vehicle(int p, int f, int m) {
+        passengers = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
     int range() {
         return fuelcap * mpg;
     }
