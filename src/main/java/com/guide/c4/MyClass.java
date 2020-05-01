@@ -7,4 +7,8 @@ public class MyClass {
     MyClass() {
         x = 10;
     }
+
+    MyClass(int i) {
+        x = i;
+    }
 }
