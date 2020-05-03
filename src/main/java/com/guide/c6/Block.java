@@ -14,17 +14,11 @@ public class Block {
 
     // Return true if ob defines same block.
     boolean sameBlock(Block ob) {
-        if (ob.a == a && ob.b == b && ob.c == c)
-            return true;
-        else
-            return false;
+        return ob.a == a && ob.b == b && ob.c == c;
     }
 
     // Return true if ob has same volume.
     boolean sameVolume(Block ob) {
-        if (ob.volume == volume)
-            return true;
-        else
-            return false;
+        return ob.volume == volume;
     }
 }
