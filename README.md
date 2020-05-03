@@ -36,6 +36,10 @@ For instance:
 docker-compose run jdk mvn compile exec:java -Dexec.mainClass=com.guide.c1.GalToLitTable
 docker-compose run jdk mvn compile exec:java -Dexec.mainClass=com.guide.c2.SelfTest10
 ```
+or with arguments:
+```
+docker-compose run jdk mvn compile exec:java -Dexec.mainClass=com.guide.c5.CLDemo -Dexec.args="one two three"
+```
 ## How to uninstall the project
 ```
 docker-compose down -v
