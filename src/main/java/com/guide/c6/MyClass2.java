@@ -16,10 +16,11 @@ public class MyClass2 {
 
     MyClass2(double d) {
         System.out.println("Inside MyClass2(double).");
+        x = (int) d;
     }
 
     MyClass2(int i, int j) {
-        System.out.println("Inside MyClass2().");
+        System.out.println("Inside MyClass2(int, int).");
         x = i * j;
     }
 }
