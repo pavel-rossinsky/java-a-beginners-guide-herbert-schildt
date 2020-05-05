@@ -16,14 +16,14 @@ public class Quicksort {
         x = items[(left+right)/2];
 
         do {
-            while (items[i] < x && i < right) i++;
-            while (x < items[j] && j > left) j--;
+            while ((items[i] < x) && (i < right)) i++;
+            while ((x < items[j]) && (j > left)) j--;
 
-            if (i == j) {
+            if (i <= j) {
                 y = items[i];
                 items[i] = items[j];
                 items[j] = y;
-                i++; j++;
+                i++; j--;
             }
         } while (i <= j);
 
