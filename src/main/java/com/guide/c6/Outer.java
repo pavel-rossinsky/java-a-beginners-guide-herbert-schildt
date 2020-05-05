@@ -39,7 +39,7 @@ public class Outer {
         int avg() {
             int a = 0;
 
-            for (int i = 1; i < nums.length; i++)
+            for (int i = 0; i < nums.length; i++)
                 a += nums[i];
 
             return a / nums.length;
