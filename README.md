@@ -51,11 +51,11 @@ docker-compose down -v
 | --- | --- | --- | 
 | 1 | [Java Fundamentals](./src/main/java/com/guide/c1) | :ballot_box_with_check: |
 | 2 | [Introducing Data Types and Operators](./src/main/java/com/guide/c2) | :ballot_box_with_check: |
-| 3 | [Program Control Statements](./src/main/java/com/guide/c3) | :hourglass_flowing_sand: |
-| 4 | [Introducing Classes, Objects, and Methods](./src/main/java/com/guide/c4) | :coffee: |
-| 5 | [More Data Types and Operators](./src/main/java/com/guide/c5) | :coffee: |
-| 6 | [A Closer Look at Methods and Classes](./src/main/java/com/guide/c6) | :coffee: |
-| 7 | [Inheritance](./src/main/java/com/guide/c7) | :coffee: |
+| 3 | [Program Control Statements](./src/main/java/com/guide/c3) | :ballot_box_with_check: |
+| 4 | [Introducing Classes, Objects, and Methods](./src/main/java/com/guide/c4) | :ballot_box_with_check: |
+| 5 | [More Data Types and Operators](./src/main/java/com/guide/c5) | :ballot_box_with_check: |
+| 6 | [A Closer Look at Methods and Classes](./src/main/java/com/guide/c6) | :ballot_box_with_check: |
+| 7 | [Inheritance](./src/main/java/com/guide/c7) | :hourglass_flowing_sand: |
 | 8 | [Packages and Interfaces](./src/main/java/com/guide/c8) | :coffee: |
 | 9 | [Exception Handling](./src/main/java/com/guide/c9) | :coffee: |
 | 10 | [Using I/O](./src/main/java/com/guide/c10) | :coffee: |
