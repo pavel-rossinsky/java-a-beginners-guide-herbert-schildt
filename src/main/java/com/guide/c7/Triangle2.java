@@ -2,14 +2,7 @@ package com.guide.c7;
 
 // A subclass of TwoDShape for triangles.
 public class Triangle2 extends TwoDShape2 {
-    private String style;
-
-    Triangle2(String s, double w, double h) {
-        setWidth(w);
-        setHeight(h);
-
-        style = s;
-    }
+    String style;
 
     double area() {
         return getWidth() * getHeight() / 2;
