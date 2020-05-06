@@ -10,11 +10,11 @@ public class Truck extends Vehicle {
         cargocap = c;
     }
 
-    int getCargocap() {
+    int getCargo() {
         return cargocap;
     }
 
-    void setCargocap(int c) {
+    void putCargo(int c) {
         cargocap = c;
     }
 }
