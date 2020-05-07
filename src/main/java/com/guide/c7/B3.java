@@ -10,6 +10,7 @@ public class B3 extends A3 {
 
     // display k - this overriders show() in A
     void show() {
+        super.show(); // this calls A's show()
         System.out.println("k: " + k);
     }
 }
