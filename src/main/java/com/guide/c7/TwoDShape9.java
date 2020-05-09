@@ -55,8 +55,6 @@ abstract class TwoDShape9 {
         System.out.println("Width and height are " + width + " and " + height);
     }
 
-    double area() {
-        System.out.println("area () must be overridden");
-        return 0.0;
-    }
+    // Now, area() is abstract.
+    abstract double area();
 }
