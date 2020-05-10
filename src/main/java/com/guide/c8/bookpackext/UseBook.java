@@ -1,7 +1,5 @@
 package com.guide.c8.bookpackext;
 
-import com.guide.c8.bookpack.Book;
-
 // Use the Book2 class from bookpack.
 public class UseBook {
     public static void main(String[] args) {
