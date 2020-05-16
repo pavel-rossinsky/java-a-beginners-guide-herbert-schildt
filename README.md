@@ -57,8 +57,8 @@ docker-compose down -v
 | 6 | [A Closer Look at Methods and Classes](./src/main/java/com/guide/c6) | :ballot_box_with_check: |
 | 7 | [Inheritance](./src/main/java/com/guide/c7) | :ballot_box_with_check: |
 | 8 | [Packages and Interfaces](./src/main/java/com/guide/c8) | :ballot_box_with_check: |
-| 9 | [Exception Handling](./src/main/java/com/guide/c9) | :hourglass_flowing_sand: |
-| 10 | [Using I/O](./src/main/java/com/guide/c10) | :coffee: |
+| 9 | [Exception Handling](./src/main/java/com/guide/c9) | :ballot_box_with_check: |
+| 10 | [Using I/O](./src/main/java/com/guide/c10) | :hourglass_flowing_sand: |
 | 11 | [Multithreaded Programming](./src/main/java/com/guide/c11) | :coffee: |
 | 12 | [Enumerations, Autoboxing, Static Import, and Annotations](./src/main/java/com/guide/c12) | :coffee: |
 | 13 | [Generics](./src/main/java/com/guide/c13) | :coffee: |
