@@ -9,6 +9,6 @@ public class QueueFullException extends Exception {
     }
 
     public String toString() {
-        return "\nQueue us fill. Maximum size is " + size;
+        return "\nQueue us full. Maximum size is " + size;
     }
 }
